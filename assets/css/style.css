@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin: 0
+}
+hr{
+    width: 98%;
+}
+header{
+    padding-left: 1rem;
+}
+section{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+input{
+    width: 70%;
+}
+
+button{
+    background-color: darkslategrey;
+    color: white;
+    font-size: small;
+}
+
+.cuenta{
+    color:dimgray;
+    padding: 1rem;
+}
+
+b {
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+
+.cuenta{
+    width: 20%;
+}
+.tareas{
+    width: 70%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column; 
+ }
+.tareasContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: row;  
+    justify-items:center ;
+    padding: 5px 0px;
+    align-items: center;  
+    border: 1px solid black;
+}
+
+.t_id {
+    width: 25%;
+    margin: 0 auto;
+}
+.t_tarea{
+    width: 60%;
+}
+.t_check{
+    width: 5%;
+    margin: 0 auto;
+}
+.t_btn{
+    width: 5%;
+    margin: 0 auto;
+}
